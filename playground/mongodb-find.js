@@ -1,5 +1,3 @@
-//const MongoClient = require('mongodb').MongoClient;
-// Object destructuring (does the same as code above)
 const {MongoClient, ObjectID} = require('mongodb');
 
 var obj = new ObjectID(); // Contains new id for document field
