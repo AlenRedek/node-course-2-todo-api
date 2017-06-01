@@ -12,5 +12,5 @@ USAGE:
 <li>$ npm install</li>
 <li>$ npm start</li>
 <li>When the server is up & running, you should be able to make HTTP requests using Postman for example.<br />
-I have exported these request in a separate file (Todo App.postman_collection) as well</li>
+I have exported these request in a separate file (todo-app.postman_collection) as well</li>
 </ul>
