@@ -13,4 +13,5 @@ USAGE:
 <li>$ npm start</li>
 <li>When the server is up & running, you should be able to make HTTP requests using Postman for example.<br />
 I have exported these request in a separate file (todo-app.postman_collection) as well</li>
+<li>You should first authenticate first by making a POST request to /users/login route and obtain a valid token.<br />After that other requests shouldn't respond with 401 unauthorized error.</li>
 </ul>
