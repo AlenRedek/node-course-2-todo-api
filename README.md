@@ -9,6 +9,21 @@ USAGE:
 <ul>
 <li>$ git clone https://github.com/AlenRedek/node-course-2-todo-api.git</li>
 <li>$ cd node-course-2-todo-api/</li>
+<li>Now it's time to create a config file, otherwise the api won't start.<br />You should create a file inside server/config/config.json and place the JSON, which should look something like this:<br />
+```javascript
+{
+  "test": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/TodoApp",
+    "JWT_SECRET": "salt1"
+  },
+  "development": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/TodoAppTest",
+    "JWT_SECRET": "salt2"
+  }
+}
+</li>
 <li>$ npm install</li>
 <li>$ npm start</li>
 <li>When the server is up & running, you should be able to make HTTP requests using Postman for example.<br />
