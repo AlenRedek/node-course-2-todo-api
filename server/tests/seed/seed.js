@@ -9,7 +9,7 @@ const userTwoId = new ObjectID();
 const users = [
   {
     '_id': userOneId,
-    'email': 'alen@emigma.com',
+    'email': 'alen@redek.me',
     'password': 'userOnePass',
     'tokens': [
       {
@@ -20,7 +20,7 @@ const users = [
   },
   {
     '_id': userTwoId,
-    'email': 'branko@emigma.com',
+    'email': 'branko@redek.me',
     'password': 'userTwoPass',
     'tokens': [
       {
