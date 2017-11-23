@@ -1,9 +1,6 @@
 # node-todo-api
 Node.js API for managing To-Do notes
 
-
-This code was developed for educational purposes only during Udemy online course, chapters 7 & 8 (https://www.udemy.com/the-complete-nodejs-developer-course-2).
-
 USAGE:
 <ul>
 <li>$ git clone https://github.com/AlenRedek/node-todo-api.git</li>
