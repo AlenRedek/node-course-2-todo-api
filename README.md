@@ -1,4 +1,4 @@
-# node-todo-api
+# Node.js To-Do API
 Node.js API for managing To-Do notes
 
 USAGE:
